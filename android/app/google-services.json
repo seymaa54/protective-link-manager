@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "4316345143",
+    "project_id": "protective-link-manager",
+    "storage_bucket": "protective-link-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4316345143:android:cf056bd4211173ef37a0b2",
+        "android_client_info": {
+          "package_name": "com.example.protective_link_manager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0vjk7E8L14p5d9A12xVqBw79bEw34Pik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

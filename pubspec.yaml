@@ -1,4 +1,4 @@
-name: flutter_ble_app
+name: protective_link_manager
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -31,11 +31,12 @@ dependencies:
   flutter:
     sdk: flutter
 
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   intl_phone_field: ^3.2.0
+  firebase_core: ^2.30.1
+  firease_database: ^10.5.4
 
 dev_dependencies:
   flutter_test:

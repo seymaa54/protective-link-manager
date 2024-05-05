@@ -1,6 +1,6 @@
 {
-    "name": "flutter_ble_app",
-    "short_name": "flutter_ble_app",
+    "name": "protective_link_manager",
+    "short_name": "protective_link_manager",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

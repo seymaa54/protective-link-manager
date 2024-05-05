@@ -1,4 +1,4 @@
-package com.example.flutter_ble_app;
+package com.example.protective_link_manager;
 
 import io.flutter.embedding.android.FlutterActivity;
 

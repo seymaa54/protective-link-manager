@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ble_app/register_screen.dart';
-import 'package:flutter_ble_app/splash_screen.dart';
-
+import 'package:protective_link_manager/register_screen.dart';
 import 'login_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 
@@ -19,8 +23,8 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const SplashScreen(),
-      initialRoute: SplashScreen.routeName,
+      home: const LoginScreen(),
+      initialRoute: LoginScreen.routeName,
       routes: {
         //main.dart home 'da splası çağıryor zaten buna gerek yok
       //  SplashScreen.routeName:(context)=>SplashScreen(),
@@ -29,8 +33,6 @@ class _MyAppState extends State<MyApp> {
       },
       onGenerateRoute: (settings){
         switch(settings.name){
-         case SplashScreen.routeName:
-            return MaterialPageRoute(builder: (context)=>SplashScreen());
           case LoginScreen.routeName:
             return MaterialPageRoute(builder: (context)=>LoginScreen());
           case RegisterScreen.routeName:

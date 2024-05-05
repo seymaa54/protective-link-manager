@@ -1,4 +1,4 @@
-# flutter_ble_app
+# protective_link_manager
 
 A new Flutter project.
 

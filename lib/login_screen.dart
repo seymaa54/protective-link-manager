@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ble_app/register_screen.dart';
+import 'package:protective_link_manager/register_screen.dart';
 
 import 'form_button.dart';
 import 'input_field.dart';
